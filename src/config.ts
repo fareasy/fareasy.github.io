@@ -1,16 +1,15 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Farisi Mohammad",
+  title: "Data Scientist",
+  description: "Portfolio website of Farisi Mohammad",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "farisimohammad2003@gmail.com",
+    linkedin: "https://linkedin.com/in/farisimohammad",
+    github: "https://github.com/fareasy",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I’m a data analyst interested in data science and machine learning. I like working with data to find patterns, answer questions, and turn information into something useful. I enjoy exploring datasets, building models, and creating clear visualizations. I value structured thinking, practical insights, and clean, reproducible work. Still learning, still building.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
@@ -69,9 +68,9 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Airlangga University",
+      degree: "Bachelor of Data Science",
+      dateRange: "2021-2025",
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
         "Dean's List all semesters",
