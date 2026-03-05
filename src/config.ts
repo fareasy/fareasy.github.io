@@ -10,59 +10,34 @@ export const siteConfig = {
   },
   aboutMe:
     "I’m a data analyst interested in data science and machine learning. I like working with data to find patterns, answer questions, and turn information into something useful. I enjoy exploring datasets, building models, and creating clear visualizations. I value structured thinking, practical insights, and clean, reproducible work. Still learning, still building.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Python","SQL","Data Analysis","Dashboard Building"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "E-Commerce Performance Dashboard",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Built an end-to-end analytics pipeline with PostgreSQL and Tableau on the Olist Brazilian E-Commerce Dataset, featuring an interactive dashboard tracking revenue, orders, customer metrics, top product categories, and regional sales trends",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["SQL","Tableau","Dashboard Building"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "RSUD Bhakti Dharma Husada",
+      title: "Data Analyst",
+      dateRange: "Nov 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Analyzed 282k+ BPJS insurance claim records using Python to identify tariff disparities and cost drivers, supporting hospital financial evaluation and planning",
+        "Conducted multi-dimensional claim analysis, identifying high-cost diagnoses and key cost drivers",
+        "Forecasted next-year patient volume to aid in annual service target planning"
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Dinas Kepemudaan dan Olahraga Provinsi Jawa Timur",
+      title: "Data Analyst",
+      dateRange: "Jan 2024 - Feb 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Analyzed 600+ public survey responses on corruption perception using Excel and developed analytical summaries",
+        "Built interactive dashboards in Google Looker Studio for internal departmental reporting"
       ],
     },
   ],
@@ -72,19 +47,8 @@ export const siteConfig = {
       degree: "Bachelor of Data Science",
       dateRange: "2021-2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated Cum Laude with 3.5 GPA",
+        "Presented research at International Conference on Advanced Technology and Multidiscipline (ICATAM) on customer churn prediction using survival analysis"
       ],
     },
   ],
