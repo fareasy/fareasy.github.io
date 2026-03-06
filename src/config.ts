@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Farisi Mohammad",
-  title: "Data Scientist",
+  title: "Data Scientist / Data Analyst",
   description: "Portfolio website of Farisi Mohammad",
-  accentColor: "#1d4ed8",
+  accentColor: "#e5e5e5",
   social: {
     email: "farisimohammad2003@gmail.com",
     linkedin: "https://linkedin.com/in/farisimohammad",
@@ -17,7 +17,8 @@ export const siteConfig = {
       description:
         "Built an end-to-end analytics pipeline with PostgreSQL and Tableau on the Olist Brazilian E-Commerce Dataset, featuring an interactive dashboard tracking revenue, orders, customer metrics, top product categories, and regional sales trends",
       link: "https://github.com/fareasy/olist-ecommerce-dashboard",
-      skills: ["SQL","Tableau"],
+      skills: ["SQL", "Tableau"],
+      image: "/projects/Olist Sales Performance Dashboard.png"
     },
   ],
   experience: [

@@ -3,3 +3,7 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+html, body {
+  background-color: #222;
+}

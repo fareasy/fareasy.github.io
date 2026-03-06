@@ -6,16 +6,16 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
-<footer class="relative bg-gray-50 border-t border-gray-200">
+<footer class="relative bg-[#111] border-t border-gray-200">
   <div class="mx-auto max-w-6xl px-6 py-12 lg:px-8">
     <div
       class="flex flex-col md:flex-row md:items-center md:justify-between gap-8"
     >
       <div class="flex flex-col gap-4">
-        <h3 class="text-2xl font-bold text-gray-800">
+        <h3 class="text-2xl font-bold text-white">
           {siteConfig.name}
         </h3>
-        <p class="text-base text-gray-600">
+        <p class="text-base text-white">
           {siteConfig.title}
         </p>
         <div class="flex gap-x-6">
@@ -31,7 +31,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="white"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -58,7 +58,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="white"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -84,7 +84,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="currentColor"
+              stroke="white"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -101,14 +101,14 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         <nav class="flex gap-x-8">
           <a
             href="#about"
-            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+            class="text-sm text-white hover:text-gray-800 transition-colors"
             >About</a
           >
           {
             hasProjects && (
               <a
                 href="#projects"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+                class="text-sm text-white hover:text-gray-800 transition-colors"
               >
                 Projects
               </a>
@@ -118,7 +118,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             hasExperience && (
               <a
                 href="#experience"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+                class="text-sm text-white hover:text-gray-800 transition-colors"
               >
                 Experience
               </a>
@@ -128,14 +128,14 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             hasEducation && (
               <a
                 href="#education"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+                class="text-sm text-white hover:text-gray-800 transition-colors"
               >
                 Education
               </a>
             )
           }
         </nav>
-        <p class="text-sm text-gray-500">
+        <p class="text-sm text-white">
           © {new Date().getFullYear()}
           {siteConfig.name}. All rights reserved.
         </p>
