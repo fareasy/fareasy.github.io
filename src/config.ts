@@ -16,8 +16,8 @@ export const siteConfig = {
       name: "E-Commerce Performance Dashboard",
       description:
         "Built an end-to-end analytics pipeline with PostgreSQL and Tableau on the Olist Brazilian E-Commerce Dataset, featuring an interactive dashboard tracking revenue, orders, customer metrics, top product categories, and regional sales trends",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["SQL","Tableau","Dashboard Building"],
+      link: "https://github.com/fareasy/olist-ecommerce-dashboard",
+      skills: ["SQL","Tableau"],
     },
   ],
   experience: [
