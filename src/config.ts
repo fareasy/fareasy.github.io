@@ -20,6 +20,14 @@ export const siteConfig = {
       skills: ["SQL", "Tableau"],
       image: "/projects/Olist Sales Performance Dashboard.png"
     },
+    {
+      name: "Football Ball Possession Estimator",
+      description:
+        "Developed a computer vision pipeline using YOLO and OpenCV to estimate football ball possession from broadcast video through player and ball detection, jersey color-based team classification, and nearest-player ball assignment.",
+      link: "https://github.com/fareasy/football-possession-estimator",
+      skills: ["Python","Deep Learning","YOLO","PyTorch"],
+      image: "/projects/Football Ball Possession Estimator.png"
+    }
   ],
   experience: [
     {
