@@ -33,7 +33,8 @@ export const siteConfig = {
       description:
         "Telegram bot that tracks Indonesian commodity prices using PIHPS data with automated alerts based on price changes",
       link: "https://github.com/fareasy/pihps-alert-bot",
-      skills: ["Python", "SQLite", "Telegram Bot", "Automation"]
+      skills: ["Python", "SQLite", "Telegram Bot", "Automation"],
+      image: "/projects/PIHPS_bot.png"
     }
   ],
   experience: [
